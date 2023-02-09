@@ -33,10 +33,22 @@
                 url: "https://www.instagram.com"
               }, {
                 name: "YouTube",
-                url: "https://www.youtube.com/"
+                url: "https://www.youtube.com"
+              }, {
+                name: "LinkedIn",
+                url: "https://www.linkedin.com"
+              }, {
+                name: "Github",
+                url: "https://github.com"
+              }, {
+                name: "Replit",
+                url: "https://replit.com"
+              }, {
+                name: "Chatgpt",
+                url: "https://chat.openai.com"
               }];
               for (var i = 0; i < links.length; i++) {
-                $("#mylist").append("<a class='mx-auto btn btn-outline-info text-secondary d-block btn-lg' width='100px' height='50px' href='" + links[i].url + "'>" + links[i].name + "</a><br>");
+                $("#mylist").append("<a class='mx-auto btn btn-outline-info text-secondary d-block btn-lg' width='100px' height='50px' href='" + links[i].url + "' target='_blank'>" + links[i].name + "</a><br>");
                 }
               });
       </script>
